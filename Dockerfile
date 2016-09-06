@@ -5,3 +5,4 @@ ENTRYPOINT ["/sbin/dokku-entrypoint.sh"]
 CMD ["app:start"]
 
 COPY sbin/* /sbin/
+COPY CHECKS /app/
