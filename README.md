@@ -3,6 +3,8 @@
 ## Quick start
 
 ```
+git clone https://github.com/iteratia/dokku-redmine.git
+cd dokku-redmine
 DOKKU_HOST=dokku.me dokku apps:create redmine
 dokku postgres:create redmine
 dokku postgres:link redmine redmine
