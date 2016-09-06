@@ -17,4 +17,4 @@ dokku domains:add git.acme.com
 dokku letsencrypt
 ```
 
-Your new Gitlab instance is now running at <https://git.acme.me>
+Your new Gitlab instance is now running at <https://git.acme.com>
