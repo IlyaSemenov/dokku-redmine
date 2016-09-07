@@ -13,8 +13,8 @@ dokku storage:mount /srv/redmine/data:/home/redmine/data
 dokku storage:mount /srv/redmine/log:/var/log/redmine
 dokku storage:mount /srv/redmine/plugins:/home/redmine/redmine/plugins
 git push dokku master
-dokku domains:add git.acme.com
+dokku domains:add redmine.acme.com
 dokku letsencrypt
 ```
 
-Your new Gitlab instance is now running at <https://git.acme.com>
+Your new Redmine instance is now running at <https://redmine.acme.com>
