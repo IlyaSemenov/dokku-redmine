@@ -1,4 +1,4 @@
-FROM sameersbn/redmine:3.2.1-6
+FROM sameersbn/redmine:3.3.1
 
 EXPOSE 80
 ENTRYPOINT ["/sbin/dokku-entrypoint.sh"]
